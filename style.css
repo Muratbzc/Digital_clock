@@ -1,0 +1,44 @@
+@font-face {
+  font-family: digital;
+  src: url(./font/digital-7.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(0deg, rgb(54 54 54 / 30%), rgb(0 0 0 / 90%)),
+    url(./img/clock-gbe6041c3b_1280.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-bottom: 10rem;
+  opacity: 0.8;
+}
+
+p {
+  color: rgb(27, 248, 237);
+  font-size: 6rem;
+  font-family: digital;
+  text-shadow: 2px 2px 20px;
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 2.5rem;
+  }
+}
